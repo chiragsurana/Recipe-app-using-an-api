@@ -1,0 +1,71 @@
+ .App{
+   margin-left:30%;
+   margin-right:30%;
+ }
+   
+ form{
+  
+   
+   height:30px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ }
+ .form-input{
+   width:74%;
+ border:none;
+ height:30px;
+ left:0;
+
+  }
+  .form-button{
+    border:none;
+    background-color: cornflowerblue;
+    width:25%;
+    height:30px;
+    color:white;
+   
+
+  }
+  .form-button:hover{
+    background-color:blueviolet; 
+    transition:all 0.1s ease-out; 
+  }
+
+  .content-button{
+    position: absolute;
+    right:0px;
+    width:24%;
+    top:15px;
+    border:none;
+    background-color: cornflowerblue;
+  padding:0px 25px;
+    height:30px;
+    color:white;
+    
+
+  }
+  .content-button:hover{
+    background-color:blueviolet; 
+    transition:all 0.1s ease-in; 
+  }
+  .content{
+    position: relative;
+    border-bottom: 5px solid blueviolet;
+    border-top: 5px solid blueviolet;
+  }
+   
+  img {
+    z-index: -3;
+    position: absolute;
+    top:125px;
+     width:40%;
+     border-radius: 5px;
+     height:400px;
+     border-bottom: 5px solid blueviolet;
+    border-top: 5px solid blueviolet;
+     
+  }
+ .head{
+   
+ 
+ font-size:14px;
+ }
